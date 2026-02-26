@@ -1,0 +1,635 @@
+{
+    "buttons": {
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "switchLanguage": "Switch Language",
+        "close": "Close",
+        "save": "Save",
+        "delete": "Delete"
+    },
+    "forms": {
+        "labels": {
+            "email": "Email Address",
+            "password": "Password",
+            "name": "Full Name",
+            "message": "Message"
+        },
+        "placeholders": {
+            "email": "Enter your email",
+            "password": "Enter your password",
+            "name": "Enter your name",
+            "message": "Type your message here"
+        },
+        "errors": {
+            "required": "This field is required",
+            "invalidEmail": "Please enter a valid email address",
+            "passwordTooShort": "Password must be at least 8 characters",
+            "generic": "An error occurred. Please try again."
+        }
+    },
+    "common": {
+        "welcome": "Welcome, {name}!",
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "confirmation": "Are you sure?",
+        "footer": {
+            "builtWith": "Built with ❤️ using Next.js 15, React 19, and TypeScript"
+        }
+    },
+    "metadata": {
+        "default": {
+            "title": "Next.js Boilerplate",
+            "siteName": "Next.js Boilerplate",
+            "description": "Production-ready Next.js 15 boilerplate with TypeScript, React 19, and modern tooling"
+        },
+        "home": {
+            "title": "Home",
+            "description": "Welcome to our Next.js 15+ boilerplate with TypeScript and React 19"
+        }
+    },
+    "pages": {
+        "home": {
+            "title": "Welcome to Next.js 15",
+            "description": "Production-ready boilerplate with TypeScript, React 19, and modern tooling",
+            "features": {
+                "title": "Features",
+                "items": {
+                    "nextjs": "Next.js 15 with App Router",
+                    "react": "React 19 with Server Components",
+                    "typescript": "TypeScript with strict mode",
+                    "linting": "ESLint + Prettier",
+                    "testing": "Jest + React Testing Library",
+                    "e2e": "Playwright E2E testing",
+                    "docker": "Docker support",
+                    "ci": "CI/CD pipeline"
+                }
+            },
+            "apiRoutes": {
+                "title": "API Routes →",
+                "description": "Try out the example API endpoint"
+            },
+            "documentation": {
+                "title": "Documentation →",
+                "description": "Learn more about Next.js features"
+            }
+        }
+    },
+    "components": {
+        "serverInfo": {
+            "title": "Server Information",
+            "environment": "Environment",
+            "nodeVersion": "Node Version",
+            "platform": "Platform",
+            "timestamp": "Timestamp"
+        }
+    },
+    "preview": {
+        "page": {
+            "loadingTheme": "Loading theme..."
+        },
+        "tabs": {
+            "components": "Components",
+            "demos": "Demos",
+            "ariaLabel": "Theme preview tabs"
+        },
+        "navigation": {
+            "components": "Components",
+            "demos": "Demos",
+            "crm": "CRM System",
+            "dashboard": "Analytics Dashboard",
+            "companyOverview": "Company Website"
+        },
+        "pageTitle": {
+            "components": "Component Showcase",
+            "crm": "CRM Demo",
+            "dashboard": "Dashboard Demo",
+            "companyOverview": "Company Overview Demo"
+        },
+        "menu": {
+            "title": "Theme Settings",
+            "closeAriaLabel": "Close theme settings",
+            "sections": {
+                "colors": "Colors",
+                "typography": "Typography",
+                "borderRadius": "Border Radius",
+                "exportImport": "Export / Import"
+            }
+        },
+        "colors": {
+            "title": "Colors",
+            "lightMode": "Light Mode",
+            "darkMode": "Dark Mode",
+            "editingLight": "☀️ Editing Light Mode Colors",
+            "editingDark": "🌙 Editing Dark Mode Colors",
+            "categories": {
+                "palette": "Palette Colors",
+                "background": "Background Colors",
+                "textDivider": "Text & Divider",
+                "custom": "Custom Typography Colors"
+            },
+            "labels": {
+                "primary": "Primary",
+                "secondary": "Secondary",
+                "error": "Error",
+                "warning": "Warning",
+                "info": "Info",
+                "success": "Success",
+                "backgroundDefault": "Background Default",
+                "backgroundPaper": "Background Paper",
+                "textPrimary": "Text Primary",
+                "textSecondary": "Text Secondary",
+                "textDisabled": "Text Disabled",
+                "divider": "Divider",
+                "headingColor": "Heading Color",
+                "bodyColor": "Body Color",
+                "linkColor": "Link Color"
+            }
+        },
+        "typography": {
+            "title": "Typography",
+            "preview": "Preview",
+            "heading1": "Heading 1",
+            "heading2": "Heading 2",
+            "heading3": "Heading 3",
+            "heading4": "Heading 4",
+            "heading5": "Heading 5",
+            "heading6": "Heading 6",
+            "body1": "Body 1",
+            "body2": "Body 2",
+            "bodyText": "This is body text. The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "fontFamily": {
+                "headingFont": "Heading Font",
+                "bodyFont": "Body Font"
+            },
+            "fontWeight": {
+                "headingWeight": "Heading Weight",
+                "bodyWeight": "Body Weight"
+            },
+            "fontSize": {
+                "title": "Font Sizes",
+                "h1Size": "H1 Size",
+                "h2Size": "H2 Size",
+                "h3Size": "H3 Size",
+                "bodySize": "Body Size"
+            },
+            "lineHeight": {
+                "title": "Line Heights",
+                "headingLineHeight": "Heading Line Height",
+                "bodyLineHeight": "Body Line Height"
+            },
+            "letterSpacing": {
+                "title": "Letter Spacing",
+                "headingLetterSpacing": "Heading Letter Spacing",
+                "bodyLetterSpacing": "Body Letter Spacing"
+            },
+            "categories": {
+                "system": "System Fonts",
+                "sansSerif": "Sans-serif",
+                "serif": "Serif",
+                "display": "Display"
+            }
+        },
+        "radius": {
+            "title": "Border Radius",
+            "label": "Radius: {value}px",
+            "preview": "Preview",
+            "small": "Small",
+            "medium": "Medium",
+            "large": "Large",
+            "fullWidth": "Full Width Component",
+            "description": "This radius applies to all components including buttons, cards, inputs, and modals.",
+            "marks": {
+                "sharp": "0px (Sharp)",
+                "rounded": "50px (Rounded)"
+            }
+        },
+        "export": {
+            "button": "Export Theme"
+        },
+        "import": {
+            "button": "Import Theme",
+            "errors": {
+                "invalidFileType": "Invalid file type. Please upload a JSON file.",
+                "fileSizeExceeds": "File size exceeds 100KB limit ({size}KB).",
+                "invalidJson": "Invalid JSON format. Please check your file.",
+                "validationFailed": "Validation failed: {errors}",
+                "importFailed": "Failed to import theme configuration.",
+                "readFailed": "Failed to read file."
+            },
+            "success": "Theme imported successfully!"
+        },
+        "reset": {
+            "button": "Reset to Defaults",
+            "dialog": {
+                "title": "Reset Theme Settings?",
+                "description": "This will reset all theme settings to their default values. This action cannot be undone. All your customizations including colors, typography, and border radius will be lost.",
+                "confirm": "Reset to Defaults"
+            }
+        },
+        "components": {
+            "sections": {
+                "typography": "Typography",
+                "buttons": "Buttons",
+                "formInputs": "Form Inputs",
+                "chips": "Chips",
+                "alerts": "Alerts",
+                "cardsPapers": "Cards & Papers",
+                "avatars": "Avatars",
+                "table": "Table",
+                "dialog": "Dialog",
+                "tabs": "Tabs",
+                "accordion": "Accordion",
+                "progress": "Progress Indicators",
+                "tooltips": "Tooltips",
+                "breadcrumbs": "Breadcrumbs",
+                "pagination": "Pagination"
+            },
+            "buttons": {
+                "contained": "Contained",
+                "outlined": "Outlined",
+                "text": "Text",
+                "loadingStates": "Loading States",
+                "clickToLoad": "Click to Load",
+                "saving": "Saving...",
+                "loading": "Loading"
+            },
+            "formInputs": {
+                "outlined": "Outlined",
+                "filled": "Filled",
+                "standard": "Standard",
+                "validationStates": "Validation States",
+                "email": "Email",
+                "emailHelper": "Enter your email",
+                "emailError": "Please enter a valid email address",
+                "errorState": "Error State",
+                "errorHelper": "This field has an error",
+                "errorValue": "Invalid input",
+                "successState": "Success State",
+                "successHelper": "Looks good!",
+                "successValue": "Valid input",
+                "selectExample": "Select Example",
+                "option": "Option {number}",
+                "checkboxes": "Checkboxes",
+                "checked": "Checked",
+                "unchecked": "Unchecked",
+                "disabled": "Disabled",
+                "radioButtons": "Radio Buttons",
+                "switches": "Switches",
+                "slider": "Slider: {value}"
+            },
+            "chips": {
+                "default": "Default",
+                "clickable": "Clickable",
+                "deletable": "Deletable"
+            },
+            "alerts": {
+                "error": "This is an error alert",
+                "warning": "This is a warning alert",
+                "info": "This is an info alert",
+                "success": "This is a success alert",
+                "filledVariants": "Filled Variants",
+                "filledError": "Filled error alert",
+                "filledSuccess": "Filled success alert"
+            },
+            "cards": {
+                "title": "Card Example",
+                "description": "This is an example of a MUI Card component with content and actions.",
+                "learnMore": "Learn More",
+                "paperTitle": "Paper Component",
+                "paperDescription": "This is a Paper component with elevation=3."
+            },
+            "table": {
+                "name": "Name",
+                "role": "Role",
+                "status": "Status",
+                "actions": "Actions",
+                "active": "Active",
+                "away": "Away",
+                "edit": "Edit",
+                "rows": {
+                    "johnDoe": "John Doe",
+                    "janeSmith": "Jane Smith",
+                    "bobJohnson": "Bob Johnson",
+                    "developer": "Developer",
+                    "designer": "Designer",
+                    "manager": "Manager"
+                }
+            },
+            "dialog": {
+                "openButton": "Open Dialog",
+                "title": "Dialog Example",
+                "description": "This is an example dialog. It can contain any content you need.",
+                "closeAriaLabel": "Close dialog",
+                "confirm": "Confirm"
+            },
+            "tabs": {
+                "tabOne": "Tab One",
+                "tabTwo": "Tab Two",
+                "tabThree": "Tab Three",
+                "contentOne": "Content for Tab One",
+                "contentTwo": "Content for Tab Two",
+                "contentThree": "Content for Tab Three"
+            },
+            "accordion": {
+                "accordion1": "Accordion 1",
+                "accordion2": "Accordion 2",
+                "accordion3": "Accordion 3",
+                "content1": "This is the content of the first accordion. You can put any content here.",
+                "content2": "This is the content of the second accordion. Accordions are great for FAQ sections.",
+                "content3": "This is the content of the third accordion. They help organize content efficiently."
+            },
+            "progress": {
+                "linear": "Linear Progress",
+                "circular": "Circular Progress"
+            },
+            "tooltips": {
+                "hoverMe": "Hover me",
+                "tooltip": "This is a tooltip",
+                "top": "Top",
+                "right": "Right",
+                "bottom": "Bottom",
+                "left": "Left",
+                "tooltipTop": "Tooltip on top",
+                "tooltipRight": "Tooltip on right",
+                "tooltipBottom": "Tooltip on bottom",
+                "tooltipLeft": "Tooltip on left"
+            },
+            "breadcrumbs": {
+                "home": "Home",
+                "category": "Category",
+                "currentPage": "Current Page"
+            }
+        },
+        "demos": {
+            "title": "Demo Pages",
+            "selectDemo": "Select a demo to preview",
+            "layouts": {
+                "companyOverview": {
+                    "title": "Company Overview",
+                    "description": "Marketing landing page with animations"
+                },
+                "dashboard": {
+                    "title": "Dashboard",
+                    "description": "Analytics dashboard with charts"
+                },
+                "crm": {
+                    "title": "CRM",
+                    "description": "Customer relationship management"
+                }
+            },
+            "dashboard": {
+                "brand": "DashApp",
+                "title": "Dashboard",
+                "search": "Search...",
+                "openDrawer": "Open drawer",
+                "menu": {
+                    "profile": "Profile",
+                    "settings": "Settings",
+                    "logout": "Logout"
+                },
+                "nav": {
+                    "dashboard": "Dashboard",
+                    "analytics": "Analytics",
+                    "users": "Users",
+                    "settings": "Settings"
+                },
+                "metrics": {
+                    "revenue": "Total Revenue",
+                    "orders": "New Orders",
+                    "users": "Active Users",
+                    "conversion": "Conversion Rate"
+                },
+                "charts": {
+                    "revenuePlaceholder": "[Revenue Chart Placeholder]",
+                    "trafficPlaceholder": "[Traffic Chart Placeholder]"
+                },
+                "activity": {
+                    "title": "Recent Activity",
+                    "headers": {
+                        "user": "User",
+                        "action": "Action",
+                        "time": "Time",
+                        "status": "Status"
+                    },
+                    "rows": {
+                        "johnDoe": {
+                            "user": "John Doe",
+                            "action": "Created new project",
+                            "timestamp": "2 hours ago",
+                            "status": "Completed"
+                        },
+                        "janeSmith": {
+                            "user": "Jane Smith",
+                            "action": "Updated user profile",
+                            "timestamp": "4 hours ago",
+                            "status": "In Progress"
+                        },
+                        "bobJohnson": {
+                            "user": "Bob Johnson",
+                            "action": "Submitted report",
+                            "timestamp": "6 hours ago",
+                            "status": "Completed"
+                        },
+                        "aliceWilliams": {
+                            "user": "Alice Williams",
+                            "action": "Uploaded documents",
+                            "timestamp": "8 hours ago",
+                            "status": "Pending"
+                        }
+                    },
+                    "statuses": {
+                        "completed": "Completed",
+                        "inProgress": "In Progress",
+                        "pending": "Pending"
+                    }
+                }
+            },
+            "companyOverview": {
+                "brand": "BuildCo",
+                "nav": {
+                    "hero": "hero",
+                    "stats": "stats",
+                    "about": "about",
+                    "portfolio": "portfolio",
+                    "contact": "contact"
+                },
+                "hero": {
+                    "title": "Building Tomorrow's Spaces Today",
+                    "subtitle": "Award-winning architecture and construction services",
+                    "cta": "View Our Work"
+                },
+                "stats": {
+                    "projects": "Projects Completed",
+                    "projectsValue": "500+",
+                    "team": "Team Members",
+                    "teamValue": "50+",
+                    "experience": "Years Experience",
+                    "experienceValue": "15",
+                    "satisfaction": "Client Satisfaction",
+                    "satisfactionValue": "95%"
+                },
+                "about": {
+                    "whoWeAre": "Who We Are",
+                    "whoWeAreDesc1": "BuildCo is a leading architecture and construction firm with over 15 years of experience delivering exceptional projects. Our team of talented professionals combines creativity with technical expertise to bring your vision to life.",
+                    "whoWeAreDesc2": "We specialize in residential, commercial, and public projects, always prioritizing sustainability, innovation, and client satisfaction.",
+                    "imagePlaceholder": "[Company Image]",
+                    "vision": "Our Vision",
+                    "visionDesc": "We envision a future where architecture seamlessly blends form and function, creating spaces that inspire, endure, and respect our environment. Every project is an opportunity to push boundaries and set new standards in design excellence."
+                },
+                "portfolio": {
+                    "title": "Our Portfolio",
+                    "subtitle": "Explore our diverse range of completed projects",
+                    "filter": {
+                        "all": "All",
+                        "residential": "Residential",
+                        "commercial": "Commercial",
+                        "public": "Public"
+                    },
+                    "items": {
+                        "modernVilla": {
+                            "title": "Modern Villa",
+                            "description": "Contemporary family home with sustainable features"
+                        },
+                        "techOffice": {
+                            "title": "Tech Office",
+                            "description": "Open-plan workspace for innovation"
+                        },
+                        "cityLibrary": {
+                            "title": "City Library",
+                            "description": "Community learning center"
+                        },
+                        "luxuryApt": {
+                            "title": "Luxury Apartment",
+                            "description": "High-rise urban living"
+                        },
+                        "retailCenter": {
+                            "title": "Retail Center",
+                            "description": "Modern shopping destination"
+                        },
+                        "communityPark": {
+                            "title": "Community Park",
+                            "description": "Urban green space"
+                        }
+                    }
+                },
+                "contact": {
+                    "title": "Get In Touch",
+                    "subtitle": "Ready to start your next project? Contact us today.",
+                    "form": {
+                        "firstName": "First Name",
+                        "lastName": "Last Name",
+                        "email": "Email",
+                        "message": "Message",
+                        "submit": "Send Message"
+                    }
+                },
+                "footer": {
+                    "brand": "BuildCo",
+                    "tagline": "Building tomorrow's spaces today",
+                    "quickLinks": "Quick Links",
+                    "aboutUs": "About Us",
+                    "services": "Services",
+                    "portfolio": "Portfolio",
+                    "contact": "Contact",
+                    "contactInfo": "Contact Info",
+                    "email": "Email: info@buildco.com",
+                    "phone": "Phone: (555) 123-4567",
+                    "copyright": "© 2024 BuildCo. All rights reserved."
+                }
+            },
+            "crm": {
+                "brand": "CRM Pro",
+                "title": "Leads",
+                "openDrawer": "Open drawer",
+                "nav": {
+                    "leads": "Leads",
+                    "deals": "Deals",
+                    "settings": "Settings"
+                },
+                "filters": {
+                    "all": "All",
+                    "new": "New",
+                    "contacted": "Contacted",
+                    "qualified": "Qualified",
+                    "lost": "Lost"
+                },
+                "sorting": {
+                    "label": "Sort By",
+                    "name": "Name",
+                    "company": "Company",
+                    "value": "Value"
+                },
+                "views": {
+                    "list": "list view",
+                    "grid": "grid view"
+                },
+                "table": {
+                    "headers": {
+                        "name": "Name",
+                        "company": "Company",
+                        "email": "Email",
+                        "status": "Status",
+                        "value": "Value"
+                    }
+                },
+                "drawer": {
+                    "title": "Lead Details",
+                    "close": "Close",
+                    "contactInfo": "Contact Information",
+                    "dealValue": "Deal Value",
+                    "notes": "Notes",
+                    "activityTimeline": "Activity Timeline",
+                    "lastActivity": "Last activity: {time}",
+                    "actions": {
+                        "sendEmail": "Send Email",
+                        "call": "Call",
+                        "viewDetails": "View Details"
+                    }
+                },
+                "leads": {
+                    "johnDoe": {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phone": "(555) 123-4567",
+                        "company": "Acme Corp",
+                        "value": "$5,000",
+                        "notes": "Interested in enterprise plan",
+                        "lastActivity": "2 hours ago"
+                    },
+                    "janeSmith": {
+                        "name": "Jane Smith",
+                        "email": "jane@techco.com",
+                        "phone": "(555) 234-5678",
+                        "company": "TechCo",
+                        "value": "$12,000",
+                        "notes": "Follow up next week",
+                        "lastActivity": "1 day ago"
+                    },
+                    "bobJohnson": {
+                        "name": "Bob Johnson",
+                        "email": "bob@startup.io",
+                        "phone": "(555) 345-6789",
+                        "company": "Startup Inc",
+                        "value": "$8,500",
+                        "notes": "Ready to schedule demo",
+                        "lastActivity": "3 days ago"
+                    },
+                    "aliceWilliams": {
+                        "name": "Alice Williams",
+                        "email": "alice@corp.com",
+                        "phone": "(555) 456-7890",
+                        "company": "BigCorp",
+                        "value": "$0",
+                        "notes": "Went with competitor",
+                        "lastActivity": "1 week ago"
+                    }
+                }
+            }
+        },
+        "errors": {
+            "invalidDemo": "Invalid demo type",
+            "validDemos": "Valid demos: company-overview, dashboard, crm"
+        }
+    }
+}

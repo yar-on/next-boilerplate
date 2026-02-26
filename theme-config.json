@@ -1,0 +1,55 @@
+{
+    "version": "1.0",
+    "mode": "dark",
+    "colors": {
+        "light": {
+            "primary": "#f33939",
+            "secondary": "#9c27b0",
+            "error": "#d32f2f",
+            "warning": "#ed6c02",
+            "info": "#0288d1",
+            "success": "#2e7d32",
+            "backgroundDefault": "#ffffff",
+            "backgroundPaper": "#ffffff",
+            "textPrimary": "rgba(0, 0, 0, 0.87)",
+            "textSecondary": "rgba(0, 0, 0, 0.6)",
+            "textDisabled": "rgba(0, 0, 0, 0.38)",
+            "divider": "rgba(0, 0, 0, 0.12)",
+            "headingColor": "rgba(0, 0, 0, 0.87)",
+            "bodyColor": "rgba(0, 0, 0, 0.87)",
+            "linkColor": "#1976d2"
+        },
+        "dark": {
+            "primary": "#87f471",
+            "secondary": "#ce93d8",
+            "error": "#f44336",
+            "warning": "#ffa726",
+            "info": "#29b6f6",
+            "success": "#66bb6a",
+            "backgroundDefault": "#121212",
+            "backgroundPaper": "#1e1e1e",
+            "textPrimary": "#ffffff",
+            "textSecondary": "rgba(255, 255, 255, 0.7)",
+            "textDisabled": "rgba(255, 255, 255, 0.5)",
+            "divider": "rgba(255, 255, 255, 0.12)",
+            "headingColor": "#ffffff",
+            "bodyColor": "#ffffff",
+            "linkColor": "#90caf9"
+        }
+    },
+    "typography": {
+        "headingFont": "Inter",
+        "bodyFont": "Inter",
+        "headingWeight": 700,
+        "bodyWeight": 400,
+        "h1Size": 48,
+        "h2Size": 36,
+        "h3Size": 28,
+        "bodySize": 16,
+        "headingLineHeight": 1.2,
+        "bodyLineHeight": 1.6,
+        "headingLetterSpacing": 0,
+        "bodyLetterSpacing": 0
+    },
+    "borderRadius": 8
+}

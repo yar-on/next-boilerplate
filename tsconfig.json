@@ -1,0 +1,47 @@
+{
+    "compilerOptions": {
+        /* Language and Environment */
+        "target": "ES2022",
+        "lib": ["ES2023", "DOM", "DOM.Iterable"],
+        "jsx": "react-jsx",
+        /* Modules */
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "allowImportingTsExtensions": false,
+        /* Path Aliases - enables @/* imports for src directory */
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        /* Type Checking - STRICT MODE ENABLED */
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitReturns": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "exactOptionalPropertyTypes": true,
+        /* Interop Constraints */
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+        /* Skip Library Check for faster compilation */
+        "skipLibCheck": true,
+        /* Emit */
+        "noEmit": true,
+        "incremental": true,
+        /* Next.js specific */
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ],
+        "allowJs": true
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".next/dev/types/**/*.ts"],
+    "exclude": ["node_modules", ".next", "out", "build", "dist", "coverage", "playwright-report", "test-results"]
+}

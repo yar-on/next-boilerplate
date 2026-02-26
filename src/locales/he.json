@@ -1,0 +1,635 @@
+{
+    "buttons": {
+        "submit": "שלח",
+        "cancel": "ביטול",
+        "switchLanguage": "החלף שפה",
+        "close": "סגור",
+        "save": "שמור",
+        "delete": "מחק"
+    },
+    "forms": {
+        "labels": {
+            "email": "כתובת אימייל",
+            "password": "סיסמה",
+            "name": "שם מלא",
+            "message": "הודעה"
+        },
+        "placeholders": {
+            "email": "הזן את האימייל שלך",
+            "password": "הזן את הסיסמה שלך",
+            "name": "הזן את שמך",
+            "message": "הקלד את ההודעה שלך כאן"
+        },
+        "errors": {
+            "required": "שדה זה הוא חובה",
+            "invalidEmail": "אנא הזן כתובת אימייל תקנית",
+            "passwordTooShort": "הסיסמה חייבת להכיל לפחות 8 תווים",
+            "generic": "אירעה שגיאה. אנא נסה שוב."
+        }
+    },
+    "common": {
+        "welcome": "ברוך הבא, {name}!",
+        "loading": "טוען...",
+        "error": "שגיאה",
+        "success": "הצלחה",
+        "confirmation": "האם אתה בטוח?",
+        "footer": {
+            "builtWith": "נבנה באהבה ❤️ באמצעות Next.js 15, React 19 ו-TypeScript"
+        }
+    },
+    "metadata": {
+        "default": {
+            "title": "תבנית Next.js",
+            "siteName": "תבנית Next.js",
+            "description": "תבנית Next.js 15 מוכנה לייצור עם TypeScript, React 19 וכלים מודרניים"
+        },
+        "home": {
+            "title": "בית",
+            "description": "ברוכים הבאים לתבנית Next.js 15+ שלנו עם TypeScript ו-React 19"
+        }
+    },
+    "pages": {
+        "home": {
+            "title": "ברוכים הבאים ל-Next.js 15",
+            "description": "תבנית מוכנה לייצור עם TypeScript, React 19 וכלים מודרניים",
+            "features": {
+                "title": "תכונות",
+                "items": {
+                    "nextjs": "Next.js 15 עם App Router",
+                    "react": "React 19 עם Server Components",
+                    "typescript": "TypeScript במצב קפדני",
+                    "linting": "ESLint + Prettier",
+                    "testing": "Jest + React Testing Library",
+                    "e2e": "בדיקות E2E עם Playwright",
+                    "docker": "תמיכה ב-Docker",
+                    "ci": "צינור CI/CD"
+                }
+            },
+            "apiRoutes": {
+                "title": "נתיבי API →",
+                "description": "נסו את נקודת הקצה לדוגמה"
+            },
+            "documentation": {
+                "title": "תיעוד →",
+                "description": "למדו עוד על תכונות Next.js"
+            }
+        }
+    },
+    "components": {
+        "serverInfo": {
+            "title": "מידע על השרת",
+            "environment": "סביבה",
+            "nodeVersion": "גרסת Node",
+            "platform": "פלטפורמה",
+            "timestamp": "חותמת זמן"
+        }
+    },
+    "preview": {
+        "page": {
+            "loadingTheme": "טוען ערכת נושא..."
+        },
+        "tabs": {
+            "components": "רכיבים",
+            "demos": "דוגמאות",
+            "ariaLabel": "טאבים של תצוגת נושא"
+        },
+        "navigation": {
+            "components": "רכיבים",
+            "demos": "דוגמאות",
+            "crm": "מערכת CRM",
+            "dashboard": "לוח בקרה אנליטי",
+            "companyOverview": "אתר חברה"
+        },
+        "pageTitle": {
+            "components": "מערכת רכיבים",
+            "crm": "דוגמת CRM",
+            "dashboard": "דוגמת לוח בקרה",
+            "companyOverview": "דוגמת אתר חברה"
+        },
+        "menu": {
+            "title": "הגדרות נושא",
+            "closeAriaLabel": "סגור הגדרות נושא",
+            "sections": {
+                "colors": "צבעים",
+                "typography": "טיפוגרפיה",
+                "borderRadius": "עיגול פינות",
+                "exportImport": "ייצוא / ייבוא"
+            }
+        },
+        "colors": {
+            "title": "צבעים",
+            "lightMode": "מצב בהיר",
+            "darkMode": "מצב כהה",
+            "editingLight": "☀️ עריכת צבעי מצב בהיר",
+            "editingDark": "🌙 עריכת צבעי מצב כהה",
+            "categories": {
+                "palette": "צבעי פלטה",
+                "background": "צבעי רקע",
+                "textDivider": "טקסט ומפריד",
+                "custom": "צבעי טיפוגרפיה מותאמים"
+            },
+            "labels": {
+                "primary": "ראשי",
+                "secondary": "משני",
+                "error": "שגיאה",
+                "warning": "אזהרה",
+                "info": "מידע",
+                "success": "הצלחה",
+                "backgroundDefault": "רקע ברירת מחדל",
+                "backgroundPaper": "רקע נייר",
+                "textPrimary": "טקסט ראשי",
+                "textSecondary": "טקסט משני",
+                "textDisabled": "טקסט מושבת",
+                "divider": "מפריד",
+                "headingColor": "צבע כותרת",
+                "bodyColor": "צבע גוף",
+                "linkColor": "צבע קישור"
+            }
+        },
+        "typography": {
+            "title": "טיפוגרפיה",
+            "preview": "תצוגה מקדימה",
+            "heading1": "כותרת 1",
+            "heading2": "כותרת 2",
+            "heading3": "כותרת 3",
+            "heading4": "כותרת 4",
+            "heading5": "כותרת 5",
+            "heading6": "כותרת 6",
+            "body1": "גוף טקסט 1",
+            "body2": "גוף טקסט 2",
+            "bodyText": "זהו טקסט גוף. השועל החום הזריז קופץ מעל הכלב העצלן. לורם איפסום דולור סיט אמט.",
+            "fontFamily": {
+                "headingFont": "גופן כותרת",
+                "bodyFont": "גופן גוף"
+            },
+            "fontWeight": {
+                "headingWeight": "משקל כותרת",
+                "bodyWeight": "משקל גוף"
+            },
+            "fontSize": {
+                "title": "גדלי גופן",
+                "h1Size": "גודל H1",
+                "h2Size": "גודל H2",
+                "h3Size": "גודל H3",
+                "bodySize": "גודל גוף"
+            },
+            "lineHeight": {
+                "title": "גובה שורה",
+                "headingLineHeight": "גובה שורה כותרת",
+                "bodyLineHeight": "גובה שורה גוף"
+            },
+            "letterSpacing": {
+                "title": "ריווח אותיות",
+                "headingLetterSpacing": "ריווח אותיות כותרת",
+                "bodyLetterSpacing": "ריווח אותיות גוף"
+            },
+            "categories": {
+                "system": "גופני מערכת",
+                "sansSerif": "סאן-סריף",
+                "serif": "סריף",
+                "display": "תצוגה"
+            }
+        },
+        "radius": {
+            "title": "עיגול פינות",
+            "label": "רדיוס: {value}px",
+            "preview": "תצוגה מקדימה",
+            "small": "קטן",
+            "medium": "בינוני",
+            "large": "גדול",
+            "fullWidth": "רכיב ברוחב מלא",
+            "description": "רדיוס זה חל על כל הרכיבים כולל כפתורים, כרטיסים, שדות קלט ומודלים.",
+            "marks": {
+                "sharp": "0px (חד)",
+                "rounded": "50px (מעוגל)"
+            }
+        },
+        "export": {
+            "button": "ייצא נושא"
+        },
+        "import": {
+            "button": "ייבא נושא",
+            "errors": {
+                "invalidFileType": "סוג קובץ לא חוקי. אנא העלה קובץ JSON.",
+                "fileSizeExceeds": "גודל הקובץ עולה על מגבלת 100KB ({size}KB).",
+                "invalidJson": "פורמט JSON לא חוקי. אנא בדוק את הקובץ שלך.",
+                "validationFailed": "האימות נכשל: {errors}",
+                "importFailed": "נכשל בייבוא הגדרות הנושא.",
+                "readFailed": "נכשל בקריאת הקובץ."
+            },
+            "success": "הנושא יובא בהצלחה!"
+        },
+        "reset": {
+            "button": "אפס לברירת מחדל",
+            "dialog": {
+                "title": "לאפס הגדרות נושא?",
+                "description": "זה יאפס את כל הגדרות הנושא לערכי ברירת המחדל שלהם. פעולה זו אינה ניתנת לביטול. כל ההתאמות האישיות שלך כולל צבעים, טיפוגרפיה ועיגול פינות יאבדו.",
+                "confirm": "אפס לברירת מחדל"
+            }
+        },
+        "components": {
+            "sections": {
+                "typography": "טיפוגרפיה",
+                "buttons": "כפתורים",
+                "formInputs": "שדות טופס",
+                "chips": "שבבים",
+                "alerts": "התראות",
+                "cardsPapers": "כרטיסים ונייר",
+                "avatars": "אווטרים",
+                "table": "טבלה",
+                "dialog": "דיאלוג",
+                "tabs": "טאבים",
+                "accordion": "אקורדיון",
+                "progress": "מחווני התקדמות",
+                "tooltips": "טיפים",
+                "breadcrumbs": "ניווט פירורי לחם",
+                "pagination": "עימוד"
+            },
+            "buttons": {
+                "contained": "מלא",
+                "outlined": "מתוחם",
+                "text": "טקסט",
+                "loadingStates": "מצבי טעינה",
+                "clickToLoad": "לחץ לטעינה",
+                "saving": "שומר...",
+                "loading": "טוען"
+            },
+            "formInputs": {
+                "outlined": "מתוחם",
+                "filled": "ממולא",
+                "standard": "סטנדרטי",
+                "validationStates": "מצבי אימות",
+                "email": "אימייל",
+                "emailHelper": "הזן את האימייל שלך",
+                "emailError": "אנא הזן כתובת אימייל תקנית",
+                "errorState": "מצב שגיאה",
+                "errorHelper": "שדה זה מכיל שגיאה",
+                "errorValue": "קלט לא תקין",
+                "successState": "מצב הצלחה",
+                "successHelper": "נראה טוב!",
+                "successValue": "קלט תקין",
+                "selectExample": "דוגמה לבחירה",
+                "option": "אפשרות {number}",
+                "checkboxes": "תיבות סימון",
+                "checked": "מסומן",
+                "unchecked": "לא מסומן",
+                "disabled": "מושבת",
+                "radioButtons": "כפתורי בחירה",
+                "switches": "מתגים",
+                "slider": "סליידר: {value}"
+            },
+            "chips": {
+                "default": "ברירת מחדל",
+                "clickable": "ניתן ללחיצה",
+                "deletable": "ניתן למחיקה"
+            },
+            "alerts": {
+                "error": "זוהי התראת שגיאה",
+                "warning": "זוהי התראת אזהרה",
+                "info": "זוהי התראת מידע",
+                "success": "זוהי התראת הצלחה",
+                "filledVariants": "וריאציות ממולאות",
+                "filledError": "התראת שגיאה ממולאת",
+                "filledSuccess": "התראת הצלחה ממולאת"
+            },
+            "cards": {
+                "title": "דוגמה לכרטיס",
+                "description": "זוהי דוגמה של רכיב כרטיס MUI עם תוכן ופעולות.",
+                "learnMore": "למד עוד",
+                "paperTitle": "רכיב נייר",
+                "paperDescription": "זהו רכיב נייר עם elevation=3."
+            },
+            "table": {
+                "name": "שם",
+                "role": "תפקיד",
+                "status": "סטטוס",
+                "actions": "פעולות",
+                "active": "פעיל",
+                "away": "לא נמצא",
+                "edit": "ערוך",
+                "rows": {
+                    "johnDoe": "ג'ון דו",
+                    "janeSmith": "ג'יין סמית",
+                    "bobJohnson": "בוב ג'ונסון",
+                    "developer": "מפתח",
+                    "designer": "מעצב",
+                    "manager": "מנהל"
+                }
+            },
+            "dialog": {
+                "openButton": "פתח דיאלוג",
+                "title": "דוגמה לדיאלוג",
+                "description": "זהו דיאלוג לדוגמה. הוא יכול להכיל כל תוכן שאתה צריך.",
+                "closeAriaLabel": "סגור דיאלוג",
+                "confirm": "אישור"
+            },
+            "tabs": {
+                "tabOne": "טאב אחד",
+                "tabTwo": "טאב שניים",
+                "tabThree": "טאב שלוש",
+                "contentOne": "תוכן לטאב אחד",
+                "contentTwo": "תוכן לטאב שניים",
+                "contentThree": "תוכן לטאב שלוש"
+            },
+            "accordion": {
+                "accordion1": "אקורדיון 1",
+                "accordion2": "אקורדיון 2",
+                "accordion3": "אקורדיון 3",
+                "content1": "זהו התוכן של האקורדיון הראשון. אתה יכול לשים כאן כל תוכן.",
+                "content2": "זהו התוכן של האקורדיון השני. אקורדיונים נהדרים לסעיפי שאלות נפוצות.",
+                "content3": "זהו התוכן של האקורדיון השלישי. הם עוזרים לארגן תוכן ביעילות."
+            },
+            "progress": {
+                "linear": "התקדמות לינארית",
+                "circular": "התקדמות עגולה"
+            },
+            "tooltips": {
+                "hoverMe": "רחף עליי",
+                "tooltip": "זהו טיפ",
+                "top": "למעלה",
+                "right": "ימין",
+                "bottom": "למטה",
+                "left": "שמאל",
+                "tooltipTop": "טיפ למעלה",
+                "tooltipRight": "טיפ מימין",
+                "tooltipBottom": "טיפ למטה",
+                "tooltipLeft": "טיפ משמאל"
+            },
+            "breadcrumbs": {
+                "home": "בית",
+                "category": "קטגוריה",
+                "currentPage": "עמוד נוכחי"
+            }
+        },
+        "demos": {
+            "title": "עמודי דוגמה",
+            "selectDemo": "בחר דוגמה לתצוגה מקדימה",
+            "layouts": {
+                "companyOverview": {
+                    "title": "סקירת חברה",
+                    "description": "עמוד נחיתה שיווקי עם אנימציות"
+                },
+                "dashboard": {
+                    "title": "לוח בקרה",
+                    "description": "לוח בקרה אנליטי עם תרשימים"
+                },
+                "crm": {
+                    "title": "CRM",
+                    "description": "ניהול קשרי לקוחות"
+                }
+            },
+            "dashboard": {
+                "brand": "DashApp",
+                "title": "לוח בקרה",
+                "search": "חיפוש...",
+                "openDrawer": "פתח תפריט",
+                "menu": {
+                    "profile": "פרופיל",
+                    "settings": "הגדרות",
+                    "logout": "התנתק"
+                },
+                "nav": {
+                    "dashboard": "לוח בקרה",
+                    "analytics": "אנליטיקה",
+                    "users": "משתמשים",
+                    "settings": "הגדרות"
+                },
+                "metrics": {
+                    "revenue": "סך הכנסות",
+                    "orders": "הזמנות חדשות",
+                    "users": "משתמשים פעילים",
+                    "conversion": "שיעור המרה"
+                },
+                "charts": {
+                    "revenuePlaceholder": "[מציין מקום לתרשים הכנסות]",
+                    "trafficPlaceholder": "[מציין מקום לתרשים תעבורה]"
+                },
+                "activity": {
+                    "title": "פעילות אחרונה",
+                    "headers": {
+                        "user": "משתמש",
+                        "action": "פעולה",
+                        "time": "זמן",
+                        "status": "סטטוס"
+                    },
+                    "rows": {
+                        "johnDoe": {
+                            "user": "ג'ון דו",
+                            "action": "יצר פרויקט חדש",
+                            "timestamp": "לפני שעתיים",
+                            "status": "הושלם"
+                        },
+                        "janeSmith": {
+                            "user": "ג'יין סמית",
+                            "action": "עדכן פרופיל משתמש",
+                            "timestamp": "לפני 4 שעות",
+                            "status": "בתהליך"
+                        },
+                        "bobJohnson": {
+                            "user": "בוב ג'ונסון",
+                            "action": "הגיש דוח",
+                            "timestamp": "לפני 6 שעות",
+                            "status": "הושלם"
+                        },
+                        "aliceWilliams": {
+                            "user": "אליס ויליאמס",
+                            "action": "העלה מסמכים",
+                            "timestamp": "לפני 8 שעות",
+                            "status": "ממתין"
+                        }
+                    },
+                    "statuses": {
+                        "completed": "הושלם",
+                        "inProgress": "בתהליך",
+                        "pending": "ממתין"
+                    }
+                }
+            },
+            "companyOverview": {
+                "brand": "BuildCo",
+                "nav": {
+                    "hero": "ראשי",
+                    "stats": "סטטיסטיקות",
+                    "about": "אודות",
+                    "portfolio": "תיק עבודות",
+                    "contact": "צור קשר"
+                },
+                "hero": {
+                    "title": "בונים את המרחבים של מחר היום",
+                    "subtitle": "שירותי אדריכלות ובנייה עטורי פרסים",
+                    "cta": "צפה בעבודות שלנו"
+                },
+                "stats": {
+                    "projects": "פרויקטים שהושלמו",
+                    "projectsValue": "500+",
+                    "team": "חברי צוות",
+                    "teamValue": "50+",
+                    "experience": "שנות ניסיון",
+                    "experienceValue": "15",
+                    "satisfaction": "שביעות רצון לקוחות",
+                    "satisfactionValue": "95%"
+                },
+                "about": {
+                    "whoWeAre": "מי אנחנו",
+                    "whoWeAreDesc1": "BuildCo הינה חברת אדריכלות ובנייה מובילה עם למעלה מ-15 שנות ניסיון במסירת פרויקטים יוצאי דופן. צוות האנשי המקצוע המוכשרים שלנו משלב יצירתיות עם מומחיות טכנית כדי להפוך את החזון שלך למציאות.",
+                    "whoWeAreDesc2": "אנו מתמחים בפרויקטים למגורים, מסחריים וציבוריים, תוך מתן עדיפות תמיד לקיימות, חדשנות ושביעות רצון הלקוחות.",
+                    "imagePlaceholder": "[תמונת החברה]",
+                    "vision": "החזון שלנו",
+                    "visionDesc": "אנו חוזים עתיד שבו אדריכלות משלבת בצורה חלקה טופס ותפקוד, יוצרת מרחבים שמעוררים השראה, מחזיקים מעמד ומכבדים את הסביבה שלנו. כל פרויקט הוא הזדמנות לפרוץ גבולות ולקבוע סטנדרטים חדשים במצוינות עיצובית."
+                },
+                "portfolio": {
+                    "title": "תיק העבודות שלנו",
+                    "subtitle": "גלה את המגוון הרחב של הפרויקטים המושלמים שלנו",
+                    "filter": {
+                        "all": "הכל",
+                        "residential": "מגורים",
+                        "commercial": "מסחרי",
+                        "public": "ציבורי"
+                    },
+                    "items": {
+                        "modernVilla": {
+                            "title": "וילה מודרנית",
+                            "description": "בית משפחתי עכשווי עם תכונות קיימות"
+                        },
+                        "techOffice": {
+                            "title": "משרד טכנולוגי",
+                            "description": "מרחב עבודה פתוח לחדשנות"
+                        },
+                        "cityLibrary": {
+                            "title": "ספריית עיר",
+                            "description": "מרכז למידה קהילתי"
+                        },
+                        "luxuryApt": {
+                            "title": "דירת יוקרה",
+                            "description": "מגורים עירוניים בגובה רב"
+                        },
+                        "retailCenter": {
+                            "title": "מרכז קניות",
+                            "description": "יעד קניות מודרני"
+                        },
+                        "communityPark": {
+                            "title": "פארק קהילתי",
+                            "description": "שטח ירוק עירוני"
+                        }
+                    }
+                },
+                "contact": {
+                    "title": "צור קשר",
+                    "subtitle": "מוכן להתחיל את הפרויקט הבא שלך? צור איתנו קשר היום.",
+                    "form": {
+                        "firstName": "שם פרטי",
+                        "lastName": "שם משפחה",
+                        "email": "אימייל",
+                        "message": "הודעה",
+                        "submit": "שלח הודעה"
+                    }
+                },
+                "footer": {
+                    "brand": "BuildCo",
+                    "tagline": "בונים את המרחבים של מחר היום",
+                    "quickLinks": "קישורים מהירים",
+                    "aboutUs": "אודותינו",
+                    "services": "שירותים",
+                    "portfolio": "תיק עבודות",
+                    "contact": "צור קשר",
+                    "contactInfo": "פרטי התקשרות",
+                    "email": "אימייל: info@buildco.com",
+                    "phone": "טלפון: (555) 123-4567",
+                    "copyright": "© 2024 BuildCo. כל הזכויות שמורות."
+                }
+            },
+            "crm": {
+                "brand": "CRM Pro",
+                "title": "לידים",
+                "openDrawer": "פתח תפריט",
+                "nav": {
+                    "leads": "לידים",
+                    "deals": "עסקאות",
+                    "settings": "הגדרות"
+                },
+                "filters": {
+                    "all": "הכל",
+                    "new": "חדש",
+                    "contacted": "נוצר קשר",
+                    "qualified": "מוסמך",
+                    "lost": "אבוד"
+                },
+                "sorting": {
+                    "label": "מיין לפי",
+                    "name": "שם",
+                    "company": "חברה",
+                    "value": "ערך"
+                },
+                "views": {
+                    "list": "תצוגת רשימה",
+                    "grid": "תצוגת רשת"
+                },
+                "table": {
+                    "headers": {
+                        "name": "שם",
+                        "company": "חברה",
+                        "email": "אימייל",
+                        "status": "סטטוס",
+                        "value": "ערך"
+                    }
+                },
+                "drawer": {
+                    "title": "פרטי ליד",
+                    "close": "סגור",
+                    "contactInfo": "פרטי התקשרות",
+                    "dealValue": "ערך העסקה",
+                    "notes": "הערות",
+                    "activityTimeline": "ציר זמן פעילות",
+                    "lastActivity": "פעילות אחרונה: {time}",
+                    "actions": {
+                        "sendEmail": "שלח אימייל",
+                        "call": "התקשר",
+                        "viewDetails": "צפה בפרטים"
+                    }
+                },
+                "leads": {
+                    "johnDoe": {
+                        "name": "ג'ון דו",
+                        "email": "john@example.com",
+                        "phone": "(555) 123-4567",
+                        "company": "Acme Corp",
+                        "value": "$5,000",
+                        "notes": "מעוניין בתוכנית ארגונית",
+                        "lastActivity": "לפני שעתיים"
+                    },
+                    "janeSmith": {
+                        "name": "ג'יין סמית",
+                        "email": "jane@techco.com",
+                        "phone": "(555) 234-5678",
+                        "company": "TechCo",
+                        "value": "$12,000",
+                        "notes": "מעקב בשבוע הבא",
+                        "lastActivity": "לפני יום אחד"
+                    },
+                    "bobJohnson": {
+                        "name": "בוב ג'ונסון",
+                        "email": "bob@startup.io",
+                        "phone": "(555) 345-6789",
+                        "company": "Startup Inc",
+                        "value": "$8,500",
+                        "notes": "מוכן לקבוע הדגמה",
+                        "lastActivity": "לפני 3 ימים"
+                    },
+                    "aliceWilliams": {
+                        "name": "אליס ויליאמס",
+                        "email": "alice@corp.com",
+                        "phone": "(555) 456-7890",
+                        "company": "BigCorp",
+                        "value": "$0",
+                        "notes": "בחר במתחרה",
+                        "lastActivity": "לפני שבוע"
+                    }
+                }
+            }
+        },
+        "errors": {
+            "invalidDemo": "סוג דמו לא תקין",
+            "validDemos": "דמואים תקינים: company-overview, dashboard, crm"
+        }
+    }
+}

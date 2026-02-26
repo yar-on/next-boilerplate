@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  # Next.js Application
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runner
+    container_name: nextjs-app
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_APP_URL=http://localhost:3000
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/nextjs
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - app-network
+    # Uncomment if you need to persist data
+    # volumes:
+    #   - ./data:/app/data
+
+  # PostgreSQL Database
+  db:
+    image: postgres:16-alpine
+    container_name: nextjs-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: nextjs
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U postgres']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - app-network
+
+  # Redis (Optional - uncomment if needed)
+  # redis:
+  #   image: redis:7-alpine
+  #   container_name: nextjs-redis
+  #   restart: unless-stopped
+  #   ports:
+  #     - '6379:6379'
+  #   networks:
+  #     - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  postgres-data:

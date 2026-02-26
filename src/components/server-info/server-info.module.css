@@ -1,0 +1,56 @@
+.card {
+    padding: 1.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-background);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-foreground);
+}
+
+.infoGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.infoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background: rgba(0, 112, 243, 0.05);
+    border-radius: 4px;
+}
+
+.label {
+    font-weight: 600;
+    color: var(--color-foreground);
+}
+
+.value {
+    font-family: 'Courier New', monospace;
+    color: var(--color-primary);
+    font-size: 0.9rem;
+}
+
+.note {
+    font-size: 0.875rem;
+    color: #666;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .note {
+        color: #999;
+    }
+
+    .infoItem {
+        background: rgba(0, 112, 243, 0.1);
+    }
+}
